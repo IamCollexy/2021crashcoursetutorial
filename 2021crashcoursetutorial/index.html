@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2021 frontend developer crash course</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+          <ul class="first-nav">
+            <li>
+              <a class="current" href="#">Home</a>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+            </li>
+          </ul>
+
+          <ul class="second-nav">
+            <li>
+              <a href="#">Contact</a>
+              <a class="go-premium-g" href="#">Go Premium</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="container">
+        <div class="left-box">
+          <p class="subhead">It's Collexy &amp; Co.</p>
+          <h1>I Know You Love Writing Codes</h1>
+          <div class="hero-cta">
+          <a href="#" class="Try-out"> Try for free</a>
+          <a href="#" class="watch-video">
+            <button class="play-logo">Play</button>
+            Watch a video
+          </a>
+          <img
+            src="https://lukaszadam.com/catp_computer_illustration.svg" class="hero-img"
+            alt="cat comp illustration"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="container">
+        <ul class="features-list">
+          <li>Unlimited Task</li>
+          <li>Task Reminder</li>
+          <li>General discussion upon task completion</li>
+          <li>Social Media Announcement</li>
+          <li>Real time Collaborations</li>
+          <li>Other amazing features</li>
+        </ul>
+       <!--s <img src="images/Screenshot (75).png" alt="boss-cigar" class="feature-section img" /> -->
+      </div>
+    </section>
+    <section class="testimonial-section">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="images/20200125_094004.jpg" alt="collexy" />
+           <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum mollitia nemo ullam. Provident fuga, vitae itaque quibusdam voluptatibus enim hic est facere, beatae, officiis omnis sapiente sunt minima veritatis nobis.</blockquote>
+            <cite>-Collexy</cite>
+          </li>
+          <li>
+            <img src="images/20200125_094004.jpg" alt="collexy" />
+           <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum mollitia nemo ullam. Provident fuga, vitae itaque quibusdam voluptatibus enim hic est facere, beatae, officiis omnis sapiente sunt minima veritatis nobis.</blockquote>
+            <cite>-Collexy</cite>
+          </li>
+          <li>
+            <img src="images/20200125_094004.jpg" alt="collexy" />
+           <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum mollitia nemo ullam. Provident fuga, vitae itaque quibusdam voluptatibus enim hic est facere, beatae, officiis omnis sapiente sunt minima veritatis nobis.</blockquote>
+            <cite>-Collexy</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-left">
+          <h2>Contact</h2>
+       
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea> 
+          </form>
+        </div>
+        </div>
+        </section>
+        <div class="contact-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127197.06713044894!2d8.309643962901944!3d4.9548992828515415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10678144a70d7d85%3A0x777c7fc757112ba9!2sNNSS%20Akpabuyo!5e0!3m2!1sen!2sng!4v1640208491158!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+    </section>
+    <script>
+      const mobileBtn = document.getElementById('mobile-cta');
+      nav=document.querySelector('nav')
+      mobileBtnExit= document.getElementById('mobile-exit');
+
+      mobileBtn.addEventListener('click', ()=> {
+        nav.classList.add('icon');
+
+      })
+    </script>
+  </body>
+</html>
